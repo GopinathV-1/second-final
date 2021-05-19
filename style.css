@@ -1,0 +1,320 @@
+h1{
+    color: #503b2f;
+    font-size: 100%;
+}
+h4{
+    font-size: 100%;
+}
+h6{
+    color: #f87373;
+    font-size: 100%;
+}
+input{
+    size: "100";
+}
+.grid,.grid-bat{ 
+    position: relative;
+    margin: 5% 0;
+    padding-left: 3%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-content: center;
+    align-content: center;
+    grid-gap: 5%;
+}
+.grid img{
+    width: 70%;
+}
+.grid-bat img{
+    width: 100%;
+}
+.grid-cart{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+    background-color: #2da3f1;
+    grid-row-gap: 5px;
+    margin: 1% 10% 1% 10%;
+}
+.grid-cart img{
+    width: 35%;
+}
+.cart{
+    padding-left: 40%;
+}
+.cart a,.cart a:hover {
+    color: #ffffff;
+    text-decoration: none;
+}
+.cart button{
+    width: 20%;
+    margin-bottom: 5%;
+}
+.single{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 5%;
+    align-items: center;
+}
+.single img{
+    justify-items: end;
+    padding: 0 5% 0 25%;
+    width: 100%;
+}
+.single p{
+    color: #534e4e;
+}
+.single button a{
+    color: #ffffff;
+    text-decoration: none;
+}
+p span{
+    color: #000000;
+}
+.top-container{
+    display: grid;
+    justify-self: center;
+    align-self: center;
+    justify-content: center;
+    align-content: center;
+    grid-template-columns: minmax(100px, 300px) 1fr 1fr;
+    margin-left: 23%;
+}
+.front{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 10%;
+    justify-items: center;
+    align-items: center;
+    width: 50%;
+}
+.show{
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 100%;
+    height: 100%;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+}
+.show img{
+    width: 100%;
+    padding-bottom: 10px;
+}
+.show a{
+    margin-bottom: 10px;
+    width: 10%;
+}
+.footer{
+    background-color: #000000;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    color: #ffffff;
+    padding: 3% 5%;
+    grid-gap: 100px;
+}
+.footer img{
+    width: 90%;
+}
+.small img{
+    width: 14%;
+    padding: 0 12px;
+}
+.small{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding-left: 40px;
+    background-color: #000000;
+    color: #ffffff;
+    padding-bottom: 10px;
+}
+.small a{
+    color: #ffffff;
+    padding: 15px;
+}
+.small a:hover{
+    color: #ec8a8a;
+    text-decoration: none;
+}
+.header{
+    padding-left: 10%;
+}
+.grid-check{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.check1{
+    padding-left: 40%;    
+}
+.bottom{
+    position: absolute;
+    bottom: 0px;
+}
+.navbar-dark .nav-item .nav-link {
+    color: #fff;
+}
+.navbar-dark .nav-item .nav-link:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    transition: all 0.3s ease;
+    border-radius: 0.25rem;
+    color: #fff;
+}  
+.fa-li {
+    position: relative;
+    left: 0;
+}
+#Add-cart{
+    margin: 3% 2% 0 30%;
+}
+#check-out{
+    margin: 3% 2% 0 8%;
+}
+#frontshoe,#frontbat{
+    width: 100%;
+}
+#front{
+    display: grid;
+    width: 100%;
+    justify-items: end;
+    align-content: end;
+    padding: 0% 10%;
+    background-color: #000000;
+}
+#logo{
+    width: 10%;
+    padding-right: 10px;
+}
+#top{
+    text-align: center;
+    color: #e63333;
+}
+#top-pic{
+    padding-top: 0;
+    margin-top: 0;
+    width: 100%;
+}
+#shoe-cart{
+    width: 45%;
+}
+#align, #align-btn{
+    margin: 2% 0 1% 43% ;
+}
+@media only screen and (max-width:1000px){
+    .top-container{
+        grid-template-columns: minmax(50px, 200px) 1fr;
+        margin-left: 0%;
+        font-size: 10px;
+    }
+    .top-container h1{
+        padding-top: 5%;
+        font-size: 20px;
+    }
+    .show img{
+        height: 68%;
+        width: 100%;
+    }
+    .show h1{
+        font-size: 20px;
+    }
+    .show a{
+        width: 15%;
+        font-size: 10px;
+    }
+    .show button{
+        margin: 0% 0% 2% 0%;
+    };
+    #front{
+        justify-items: end;
+        width: 100%;
+    }
+    .footer{
+        margin-top: 8%;
+        grid-gap: 2%;
+        font-size: 8px;
+    }
+    .small{
+        grid-template-columns: 1fr 1.5fr 1fr;
+        font-size: 14px;
+    }
+    .small img{
+        width: 40%;
+    }
+    .footer img{
+        width: 100%;
+    }
+    .footer h5{
+        font-size: 10px;
+    }
+    .grid, .grid-bat{
+        margin: 10% 0 0 2%;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 1%;
+    }
+    #top, .grid h2, .grid-bat h2{
+        font-size: 120%;
+    }
+    .grid h6, .grid-bat h6{
+        font-size: 15px;
+    }
+    .grid img{
+        width: 60%;
+    }
+    .single{
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+    .single ul , .single p{
+        padding-left: 10%;
+        text-align: left;
+    }
+    .single img{
+        padding-left: 10%;
+        width: 100%;
+    }
+    .single button{
+        text-align: center;
+        padding-right: 3%;
+    }
+    #Add-cart{
+        margin: 0%;
+    }
+    #check-out{
+        margin: 0%;
+    }
+    .grid-cart p{
+        font-size: 14px;
+    }
+    .cart button{
+        width: 40%;
+        margin-bottom: 5%;
+    }
+    .grid-cart img{
+        width: 80%;
+    }
+    #shoe-cart{
+        width: 90%;
+    }
+    .cart h4, .cart a{
+        font-size: 100%;
+    }
+    .grid-check{
+        grid-template-columns: 1fr;
+        text-align: center;
+        padding: 0;
+        row-gap: 100px;
+    }
+    .check1{
+        padding: 0%;
+    }
+    #align,#align-btn{
+        margin: 2% 0 1% 35% ;
+    }
+    #list1,#list2,#list3{
+        font-size: 10px;
+    }
+    #hood{
+        font-size: 20px;
+    }
+}
