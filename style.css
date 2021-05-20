@@ -280,6 +280,9 @@ p span{
     #check-out{
         margin: 0%;
     }
+    .grid-cart{
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
     .grid-cart p{
         font-size: 14px;
     }
