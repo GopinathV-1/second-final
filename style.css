@@ -282,6 +282,7 @@ p span{
     }
     .grid-cart{
         grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-gap: 15px;
     }
     .grid-cart p{
         font-size: 14px;
