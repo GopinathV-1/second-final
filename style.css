@@ -195,9 +195,6 @@ p span{
     margin-top: 0;
     width: 100%;
 }
-#shoe-cart{
-    width: 45%;
-}
 #align, #align-btn{
     margin: 2% 0 1% 43% ;
 }
@@ -291,10 +288,7 @@ p span{
         margin-bottom: 5%;
     }
     .grid-cart img{
-        width: 80%;
-    }
-    #shoe-cart{
-        width: 90%;
+        width: 70%;
     }
     .cart h4, .cart a{
         font-size: 100%;
